@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm -rf ./_site",
+    "build": "npm run clean && eleventy",
+    "start": "npm run clean && eleventy --serve --watch"
+  }
 }
