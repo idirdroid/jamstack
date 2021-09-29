@@ -1,19 +1,24 @@
 body {
+    width: 90%;
     margin: auto;
-    font-family: Tahoma;
+    font-family: Cambria;
     background-image: url("images/background.jpg");
-
 }
 
-header {
-    background-color: darkviolet;
+.header {
     margin: auto;
     width: 100%;
-    padding: 5px 0px 0px 0px;
 }
 
 .title {
-    margin-left: 20px;
+    margin: auto;
+    background-color: darkviolet;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.title {
+    margin-left: 0px;
 }
 
 nav {
@@ -21,10 +26,17 @@ nav {
     font-weight: bold;
     height: 30px;
     background-color: white;
-    vertical-align: middle;
+    vertical-align: center;
+    border-radius: 5px;
 }
 
 ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+ol {
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -35,23 +47,25 @@ li {
 }
 
 .postSection {
-    boder: 1px;
-    background-color: darkviolet;
     margin: auto;
     padding: 20px;
 }
 
-main {
-    border-radius: 10px;
-    background-color: gainsboro;
-    height: available;
-}
 
-.footer {
+
+footer {
     position: fixed;
     bottom: 0;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    width: 90%;
+    height: 50px;
     background-color: darkviolet;
+    color: white;
+    border-radius: 5px;
+}
+
+.center {
+    margin: auto;
+    width: 100%;
 }
