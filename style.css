@@ -1,39 +1,58 @@
 body {
-    width: 90%;
+    width: 100%;
     margin: auto;
-    font-family: Cambria;
-    background-image: url("images/background.jpg");
+    font-family: "Arial";
 }
 
-.header {
+header {
     margin: auto;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #f3f3f3;
 }
 
-.title {
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: darkorange;
+}
+
+.div-right {
+  width: 60%;
     margin: auto;
-    background-color: darkviolet;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-.title {
-    margin-left: 0px;
+    align-items: end;
 }
 
 nav {
-    color: black;
-    font-weight: bold;
-    height: 30px;
-    background-color: white;
-    vertical-align: center;
-    border-radius: 5px;
+    align-items: end;
 }
+
+.div-left {
+    width: 40%;
+    margin-left: 2%;
+}
+
+.div-center {
+    text-align: center;
+    margin: auto;
+}
+
+.titleEnd {
+    color: darkorange;
+}
+
 
 ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    justify-content: flex-end;
+    margin-right: 2%;
 }
 
 ol {
@@ -43,8 +62,18 @@ ol {
 }
 
 li {
-    margin-left: 10px;
+    margin-left: 20px;
 }
+
+
+main {
+    margin: 10px 10px 10px 10px;
+}
+
+img {
+    max-width: 800px;
+}
+
 
 .postSection {
     margin: auto;
@@ -56,13 +85,12 @@ li {
 footer {
     position: fixed;
     bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    width: 90%;
     height: 50px;
-    background-color: darkviolet;
-    color: white;
-    border-radius: 5px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #f3f3f3;
 }
 
 .center {
