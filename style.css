@@ -1,7 +1,8 @@
 body {
     margin: auto;
-    background-color: black;
     font-family: Tahoma;
+    background-image: url("images/background.jpg");
+
 }
 
 header {
@@ -46,9 +47,9 @@ main {
     height: available;
 }
 
-footer {
+.footer {
     position: fixed;
-    margin-bottom: 0px;
+    bottom: 0;
     margin-left: 0px;
     margin-right: 0px;
     width: 100%;
