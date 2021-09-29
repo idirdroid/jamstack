@@ -1,0 +1,56 @@
+body {
+    margin: auto;
+    background-color: black;
+    font-family: Tahoma;
+}
+
+header {
+    background-color: darkviolet;
+    margin: auto;
+    width: 100%;
+    padding: 5px 0px 0px 0px;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+nav {
+    color: black;
+    font-weight: bold;
+    height: 30px;
+    background-color: white;
+    vertical-align: middle;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+li {
+    margin-left: 10px;
+}
+
+.postSection {
+    boder: 1px;
+    background-color: darkviolet;
+    margin: auto;
+    padding: 20px;
+}
+
+main {
+    border-radius: 10px;
+    background-color: gainsboro;
+    height: available;
+}
+
+footer {
+    position: fixed;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    background-color: darkviolet;
+}
