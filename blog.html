@@ -10,10 +10,10 @@ pagination:
 
 <section class="postSection">
     <h1>
-        Mes artcicles de blog
+        Mes artcicles de <span class="titleEnd"> blog</span>
     </h1>
 
-    <nav id="nav-blog">
+    <nav id="nav-blog" class="nav-blog">
         <ol>
             <li>{% if page.url != pagination.href.first %}<a href="{{ pagination.href.first }}">Prem.</a>{% else
                 %}Prem.{% endif %}
