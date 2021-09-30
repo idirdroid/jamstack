@@ -11,7 +11,7 @@ body {
 
 
 main {
-    margin: 10px 10px 10px 10px;
+    margin: 10px 20px 10px 20px;
     flex: 1;
 }
 
@@ -79,6 +79,7 @@ li {
 
 img {
     max-width: 500px;
+    margin: 10px;
 }
 
 
@@ -99,7 +100,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: darkorange;
+    background-color: blueviolet;
     border-radius: 5px;
     margin: 10px 0px 10px 0px
 }
