@@ -1,5 +1,5 @@
 ---
-layout: root.html
+layout: posts.html
 tags: posts
 title: Enfin! Tests sur le SN20
 date: 2021-09-30T08:32:31.203Z

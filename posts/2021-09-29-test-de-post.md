@@ -1,5 +1,5 @@
 ---
-layout: root.html
+layout: posts.html
 tags: posts
 title: Lancement réussi pour inspiration 4
 date: 2021-09-29T12:27:27.120Z
